@@ -76,7 +76,7 @@ const Checkout = () => {
             </header>
             <main>
                 {isloading && <LoadingIcon />}
-                <h4 style={{ color: 'red' }}>что то пошло не так Nurpeiil</h4>
+                <h4 style={{ color: 'red' }}>{error}</h4>
                 <table className={styles.table}>
                     <thead>
                         <tr>
